@@ -1,0 +1,14 @@
+spring:
+  
+  profiles: dev
+  datasource:
+     driverClassName:  com.mysql.jdbc.Driver
+     url:  jdbc:mysql://localhost:3306/morganstanley?useSSL=false
+     username: root
+     password: nitkkr109689
+  jpa:  
+    database: MYSQL
+    hibernate: 
+      ddl-auto: update
+    properties:  
+      dialect:  org.hibernate.dialect.MySQL5Dialect 
